@@ -487,6 +487,11 @@
   text-align: justify;
 }
 
+.center-justified {
+  text-align: justify;
+  text-align-last: center;
+}
+
 .card-title {
   margin-bottom: 0.5rem;
 }
@@ -654,12 +659,10 @@ body {
 
 #mainNav .navbar-brand {
   color: #FFF;
-  font-weight: 700;
   letter-spacing: 0.5rem;
   background-image: url("/assets/img/company_logo_wt_opacity.png");
   background-repeat: no-repeat;
   background-size: contain;
-  height: 4rem;
   padding: 0.5rem 0;
 }
 
@@ -677,6 +680,7 @@ body {
 
 @media (min-width: 992px) {
   #mainNav {
+    height: 4.5rem;
     padding-top: 0;
     padding-bottom: 0;
     border-bottom: none;
@@ -685,11 +689,12 @@ body {
   }
 
   #mainNav .navbar-brand {
-    padding: 0.5rem 0;
     background-image: url("/assets/img/company_logo_bl_opacity.png");
     background-repeat: no-repeat;
     background-size: contain;
     width: 15rem;
+    height: 4rem;
+    padding: 0.5rem 0;
   }
 
   #mainNav .nav-link {
@@ -861,12 +866,8 @@ body {
   width: 100%;
   height: auto;
   min-height: 30rem;
-  padding: 6.5rem 0;
-  background: linear-gradient(to bottom, rgba(178, 178, 255, 0) 0%, rgba(178, 178, 255, 0) 75%, #000 100%), url("/assets/img/night-map.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-  background-size: cover;
+  padding: 5rem 0;
+  background-color: #0D6EFD;
 }
 
 .third-section .featured-text {
@@ -899,8 +900,8 @@ body {
 
 .fourth-section {
   padding: 2rem 0 5rem;
-  border-left: 5rem solid #000;
-  border-right: 5rem solid #000;
+  border-left: 5rem solid #0D6EFD;
+  border-right: 5rem solid #0D6EFD;
 }
 
 .fourth-section .featured-text {
@@ -937,6 +938,15 @@ body {
 
 .contact-section {
   padding-top: 5rem;
+  position: relative;
+  width: 100%;
+  height: auto;
+  padding: 15rem 0;
+  background: url("/assets/img/contacts-bg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
 }
 
 .contact-section .card {

@@ -63,4 +63,7 @@ $(document).ready(function () {
     });
 
     $('#modal').modal();
+
+    // Copyright date will be automatically updated every year without user input.
+    $("#copyright").text(new Date().getFullYear());
 });
