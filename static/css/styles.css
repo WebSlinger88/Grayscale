@@ -759,7 +759,7 @@ body {
   height: auto;
   min-height: 35rem;
   padding: 15rem 0;
-  background: url("./assets/img/sky.png");
+  background: url("assets/img/sky.png");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -1057,7 +1057,7 @@ body {
 }
 
 .info:nth-of-type(5) {
-  background-image: url("/assets/img/info-3.jpg");
+  background-image: url("./assets/img/info-3.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
