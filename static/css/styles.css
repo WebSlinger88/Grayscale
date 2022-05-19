@@ -661,7 +661,7 @@ body {
 #mainNav .navbar-brand {
   color: #FFF;
   letter-spacing: 0.5rem;
-  background-image: url("./assets/img/company_logo_wt_opacity.png");
+  background-image: url("/img/company_logo_wt_opacity.png");
   background-repeat: no-repeat;
   background-size: contain;
   padding: 0.5rem 0;
@@ -690,7 +690,7 @@ body {
   }
 
   #mainNav .navbar-brand {
-    background-image: url("./assets/img/company_logo_bl_opacity.png");
+    background-image: url("/img/company_logo_bl_opacity.png");
     background-repeat: no-repeat;
     background-size: contain;
     width: 15rem;
@@ -717,7 +717,7 @@ body {
   }
 
   #mainNav.navbar-shrink .navbar-brand {
-    background-image: url("./assets/img/company_logo_wt_opacity.png");
+    background-image: url("/img/company_logo_wt_opacity.png");
     background-repeat: no-repeat;
     background-size: contain;
     height: 4rem;
@@ -759,7 +759,7 @@ body {
   height: auto;
   min-height: 35rem;
   padding: 15rem 0;
-  background: url("../img/sky.png");
+  background: url("/img/sky.png");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -943,7 +943,7 @@ body {
   width: 100%;
   height: auto;
   padding: 15rem 0;
-  background: url("./assets/img/contacts-bg.png");
+  background: url("/img/contacts-bg.png");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -1043,21 +1043,21 @@ body {
 }
 
 .info:nth-of-type(1) {
-  background-image: url("./assets/img/info-1.jpg");
+  background-image: url("/img/info-1.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 .info:nth-of-type(3) {
-  background-image: url("./assets/img/info-2.jpg");
+  background-image: url("/img/info-2.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 .info:nth-of-type(5) {
-  background-image: url("./assets/img/info-3.jpg");
+  background-image: url("/img/info-3.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
